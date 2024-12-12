@@ -1,0 +1,16 @@
+.locations_container {
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+
+}
+.location_container {
+    /* border-radius: 15px;
+    border: 1px solid red; 
+    padding: 10px;
+    margin: 5px;*/
+    text-align: center;
+    width: 30%;
+}

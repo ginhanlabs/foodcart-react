@@ -1,0 +1,22 @@
+{
+    "posts": [
+      { "id": "1", "category": "entry", "name": "Hamburger", "description": "Plain all beef classic burger", "price": 5.00 },
+      { "id": "2", "category": "entry", "name": "Cheese Burger", "description": "Plain all beef classic burger with cheese", "price": 6.00 },
+      { "id": "3", "category": "entry", "name": "Chicken Burger", "description": "Fried chicken on buttered bun", "price": 5.50 },
+      { "id": "4", "category": "entry", "name": "Fish Burger", "description": "Fried cod on bun with tarter sauce", "price": 5.50 },
+      { "id": "5", "category": "entry", "name": "Veggie Burger", "description": "Bean burger with avocado spread", "price": 7.00 },
+      { "id": "6", "category": "sides", "name": "Onion Rings", "description": "Battered onions", "price": 3.00 },
+      { "id": "7", "category": "sides", "name": "French Fries", "description": "Crispy crunchy", "price": 3.00 },
+      { "id": "8", "category": "sides", "name": "Chicken Wings", "description": "6 with sauce to choose", "price": 6.25 },
+      { "id": "9", "category": "dessert", "name": "House Dessert", "description": "Signature Strawberry Shortcake", "price": 3.00 },
+      { "id": "10", "category": "drinks", "name": "Bottled Drinks", "description": "Coke, Sprite or Sweet Tea", "price": 2.00 }
+    ],
+    "locations": [
+      { "id": "1", "state": "VA", "city": "Alexandria" , "address": "123 Main St", "zip": 52325, "phone": "111-245-5898"},
+      { "id": "2", "state": "VA", "city": "Alexandria" , "address": "356 Burke Dr", "zip": 52325,"phone": "111-232-8200" },
+      { "id": "3", "state": "MD", "city": "Silver Spring" , "address": "56 Rocker Lane", "zip": 52325,"phone": "222-985-3263" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
