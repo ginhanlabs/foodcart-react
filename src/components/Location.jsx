@@ -5,16 +5,17 @@ import { useState, useEffect } from 'react';
 export default function Location() {
     const [locations, setLocations] = useState([]);
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await axios.get('http://localhost:8000/locations');
-                setLocations(response.data);
-            } catch (err) {
-                // Handle errors
-                console.error(err);
-            };
+    const fetchData = async () => {
+        try {
+            const response = await axios.get('http://localhost:8000/locations');
+            setLocations(response.data);
+        } catch (err) {
+            // Handle errors
+            console.error(err);
         };
+    };
+
+    useEffect(() => {
        fetchData();
     }, []);
 

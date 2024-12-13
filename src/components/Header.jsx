@@ -12,7 +12,7 @@ function Header() {
             </div>
             <div className={styles.flex_item}>
 
-                <div className={styles.cart}>Cart</div>
+                <div className={styles.cart}>0 Cart</div>
                 </div>
         </div>
     )
